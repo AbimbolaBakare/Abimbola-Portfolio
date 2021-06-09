@@ -1,3 +1,3 @@
 # Abimbola Porfolio
 
-Theme gotten from developerFolio [Create React App](https://github.com/saadpasta/developerFolio).
+Theme gotten from [developerFolio](https://github.com/saadpasta/developerFolio).
