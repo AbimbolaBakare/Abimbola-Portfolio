@@ -40,10 +40,10 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-yahoo"></i>
-          <span></span>
+          <span className='email'>deomolara@yahoo.com</span>
         </a>
       ) : null}
-
+      
     </div>
   );
 }

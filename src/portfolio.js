@@ -19,7 +19,7 @@ const greeting = {
   username: "Abimbola",
   title: "Hi there, I'm Abimbola",
   subTitle: emoji(
-    "I am a solution driven frontend developer that has passion for creating intuitive, dynamic user experiences with experience in building Web applications with JavaScript / Reactjs and some really cool libraries."
+    "I am a solution-driven frontend engineer with a passion for creating intuitive and dynamic user experience. I have competence in building Web applications with JavaScript / Reactjs and some really cool libraries."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1h38xrmnfw4jCKBmtCjt5ltO8WLXn_T1Z/view?usp=sharing",
@@ -39,7 +39,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "INNOVATIVE FRONTEND DEVELOPER THAT LOVES BRINGING IDEAS TO LIFE",
+  subTitle: "Innovative frontend engineer that loves bringing ideas to life",
   skills: [
     emoji( "⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
     emoji("⚡ Integration of REST APIS to make application functional"),
@@ -125,18 +125,18 @@ const workExperiences = {
       companylogo: kudi,
       date: "May 2021 – Present",
       desc: "Kudi is a financial technology organization that aims at making financial services accessible and affordable to all Africans across the world, through its agent network, especially  the underbanked and unbanked.",
-      descBullets: ["Currently working on the Kudi Market Place product"]
+      descBullets: ["Currently working on Kudi Market Place product"]
     },
     {
       role: "Frontend Engineer",
       company: "DuroNetworks",
       companylogo: duro,
-      date: "July 2020 – Date",
+      date: "July 2020 – May 2021",
       desc: "DuroNetworks is a financial technology organization that provides fast and convenient transaction. Worked on the following products alongside team members from scratch.",
       descBullets: [
         "GetriPay - Provides users with bank accounts and has fetaures of inter and intra bank transfers, bill payments(airtime, data, cable tv etc), loans, bulk payments.",
         "GetriSave - GetriSave allows users to cultivate an healthy savings habit either through indiviual savings, group savings or by enabling auto save.",
-        "GetriVest -GetriVest allows user invest in a particular product for a given amount of time.",
+        "GetriVest - GetriVest allows user invest in a particular product for a given amount of time.",
         "GetriShop - Provides all the features of a virtual shop you can think of"
       ]
     },
@@ -145,10 +145,10 @@ const workExperiences = {
       company: "Grandilo Technology",
       companylogo: grandilo,
       date: "Dec 2019 – Mar 2020",
-      desc: "it, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Grandilo is a software development company",
       descBullets: [
-        "Developed, enhanced, mainteined the front end functionalites of website",
-        "Developed about 3 websites during my time there"
+        "Developed, enhanced and maintained front end functionalites of website",
+        "Developed 3 responsive websites"
       ]
     }
   ]
@@ -169,7 +169,7 @@ const bigProjects = {
       image: agrific,
       projectName: "Agrific",
       projectDesc:
-        "Agriifc is a B2B2C platform aiming to be a comprehensive trade hub that connects Nigeria farm producers and agro-commodity businesses with local and international buyers.",
+        "Agrifc is a B2B2C platform aiming to be a comprehensive trade hub that connects Nigeria farm producers and agro-commodity businesses with local and international buyers.",
       footerLink: [
         {
           name: "Visit Website",
