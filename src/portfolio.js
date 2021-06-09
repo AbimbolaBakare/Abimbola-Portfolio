@@ -19,7 +19,7 @@ const greeting = {
   username: "Abimbola",
   title: "Hi there, I'm Abimbola",
   subTitle: emoji(
-    "I am a solution-driven frontend engineer with a passion for creating intuitive and dynamic user experience. I have competence in building Web applications with JavaScript / Reactjs and some really cool libraries."
+    "I am a solution-driven frontend engineer with a passion for creating intuitive and dynamic user experience. I have competence in building web applications with JavaScript / Reactjs and some really cool libraries."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1h38xrmnfw4jCKBmtCjt5ltO8WLXn_T1Z/view?usp=sharing",
