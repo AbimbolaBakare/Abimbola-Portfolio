@@ -8,7 +8,7 @@ import redux from "./assets/images/redux.png";
 import tailwind from "./assets/images/tailwind.png";
 import scss from "./assets/images/scss.png";
 import unilag from "./assets/images/unilag.png";
-import treyda from "./assets/images/treyda.png";
+//import treyda from "./assets/images/treyda.png";
 
 // Summary And Greeting Section
 const illustration = {
