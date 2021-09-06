@@ -22,7 +22,7 @@ const greeting = {
     "I am a solution-driven frontend engineer with a passion for creating intuitive and dynamic user experience. I have competence in building web applications with JavaScript / Reactjs and some really cool libraries."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1h38xrmnfw4jCKBmtCjt5ltO8WLXn_T1Z/view?usp=sharing",
+    "https://drive.google.com/file/d/15CwhZ5oKqq45Hzwo4OrZ2ebbBZf72j2t/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -41,7 +41,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Innovative frontend engineer that loves bringing ideas to life",
   skills: [
-    emoji( "⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+    ),
     emoji("⚡ Integration of REST APIS to make application functional"),
     emoji("⚡Responsive designs and mobile first applications")
   ],
@@ -51,7 +53,7 @@ const skillsSection = {
 // Education Section
 
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "University Of Lagos",
@@ -177,12 +179,12 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: treyda,
-      projectName: "Treyda - Still in develpoment",
-      projectDesc:
-        "Treyda saves you time. Connects you to thousands of vetted agribusinesses across africa and facilitates your payments"
-    }
+    // {
+    //   image: treyda,
+    //   projectName: "Treyda - Still in develpoment",
+    //   projectDesc:
+    //     "Treyda saves you time. Connects you to thousands of vetted agribusinesses across africa and facilitates your payments"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
