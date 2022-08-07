@@ -1,6 +1,7 @@
 import emoji from "react-easy-emoji";
 import agrific from "./assets/images/agrific.png";
 import kudi from "./assets/images/kudi.png";
+import traktion from "./assets/images/traktion.png";
 import duro from "./assets/images/duro.jpg";
 import grandilo from "./assets/images/grandilo.jpg";
 import next from "./assets/images/next.svg";
@@ -22,7 +23,7 @@ const greeting = {
     "I am a solution-driven frontend engineer with a passion for creating intuitive and dynamic user experience. I have competence in building web applications with JavaScript / Reactjs and some really cool libraries."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15CwhZ5oKqq45Hzwo4OrZ2ebbBZf72j2t/view?usp=sharing",
+    "https://drive.google.com/file/d/1Ms2pO5aIxg-WXcy_xAfrB-H9VTdsdNj2/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -123,9 +124,17 @@ const workExperiences = {
   experience: [
     {
       role: "Frontend Engineer",
+      company: "Traktion, UK.",
+      companylogo: traktion,
+      date: "November 2021 – Present",
+      desc: "raktion gives you on-demand access to the best verified marketing talent",
+      descBullets: ["Traktion web application"]
+    },
+    {
+      role: "Frontend Engineer",
       company: "Kudi Inc.",
       companylogo: kudi,
-      date: "May 2021 – Present",
+      date: "May 2021 – November 2021",
       desc: "Kudi is a financial technology organization that aims at making financial services accessible and affordable to all Africans across the world, through its agent network, especially  the underbanked and unbanked.",
       descBullets: ["Currently working on Kudi Market Place product"]
     },
@@ -133,13 +142,10 @@ const workExperiences = {
       role: "Frontend Engineer",
       company: "DuroNetworks",
       companylogo: duro,
-      date: "July 2020 – May 2021",
+      date: "July 2020 – June 2021",
       desc: "DuroNetworks is a financial technology organization that provides fast and convenient transaction. Worked on the following products alongside team members from scratch.",
       descBullets: [
-        "GetriPay - Provides users with bank accounts and has fetaures of inter and intra bank transfers, bill payments(airtime, data, cable tv etc), loans, bulk payments.",
-        "GetriSave - GetriSave allows users to cultivate an healthy savings habit either through indiviual savings, group savings or by enabling auto save.",
-        "GetriVest - GetriVest allows user invest in a particular product for a given amount of time.",
-        "GetriShop - Provides all the features of a virtual shop you can think of"
+        "GetriPay - Provides users with bank accounts and has features of inter and intra bank transfers, bill payments(airtime, data, cable tv etc), loans, qr payments, bulk payments."
       ]
     },
     {
@@ -178,13 +184,7 @@ const bigProjects = {
           url: "https://agrific.co/"
         }
       ]
-    },
-    // {
-    //   image: treyda,
-    //   projectName: "Treyda - Still in develpoment",
-    //   projectDesc:
-    //     "Treyda saves you time. Connects you to thousands of vetted agribusinesses across africa and facilitates your payments"
-    // }
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -193,7 +193,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+234-809259480",
+  number: "+234-8092592480",
   email_address: "deomolara@yahoo.com"
 };
 
